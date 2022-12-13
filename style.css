@@ -1,0 +1,50 @@
+.heading
+{
+    width:100%;
+    text-align: left;
+}
+
+.heading h3
+{
+    display: inline;
+}
+
+.heading button
+{
+    float: right;
+}
+
+#start , #status
+{
+    font-size: 22px;
+}
+
+#game_console
+{
+    border: 5px solid white  ;
+    
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+
+h4
+{
+    line-height:2 ;
+    background-color: white;
+    margin: 0;
+}
+
+canvas{
+    box-shadow: 5px ghostwhite;
+}
+
+@keyframes Exanples
+{
+    0%{box-shadow: 5px 5px 50px red;}
+    25%{box-shadow: 50px 5px 50px pink;}
+    50%{box-shadow: 5px 5px 50px purple;}
+    100%{box-shadow: 5px 5px 50px blue;}
+}
